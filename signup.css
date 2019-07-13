@@ -1,0 +1,180 @@
+*{
+	font-family: cursive; 
+
+	font-size: 16px
+} 
+
+.table{
+	display: table;
+}
+#line{
+	display: table-row;
+
+}
+
+#id{
+	display: table-cell;
+}
+
+html{height:100%; 
+	margin:0;
+}
+
+form{action:action_page.php;  
+}
+
+.box input[type="submit"]:hover{
+	
+	cursor: pointer;
+	background: white;
+	color: #000;
+}
+
+.box input{
+	
+	width:100%;
+	margin-bottom:0%;
+	height: 199%;
+}
+
+h1{
+	
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	
+}
+ 
+ body{background-image: url(''); 
+	margin:0; 
+	padding:0;
+	height: 100%; 
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no repeat;
+}
+
+.box input[type="submit"]{
+	
+	border: none;
+	outline: none;
+	height:40px;
+	background: silver;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+ 
+ .box{
+	
+	width:290px;
+	height:650px;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+	top:50%;
+	left:89.4%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:30px 30px; 
+	
+}
+
+.box input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="radio"]{
+	
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:20px;
+	color: white;
+	font-size: 16px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	*{
+		font-family: cursive; 
+
+		font-size: 16px
+	} 
+
+	html{height:100%; 
+		margin:0;
+	}
+
+	form{action:action_page.php;  
+	}
+
+	.box input[type="submit"]:hover{
+		
+		cursor: pointer;
+		background: white;
+		color: #000;
+	}
+
+	.box input{
+		
+		width:100%;
+		margin-bottom:5.9px;
+	}
+
+	h1{
+		
+		margin: 0;
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 22px;
+		
+	}
+	 
+	 body{background-image: url(''); 
+		margin:0; 
+		padding:0;
+		height: 100%; 
+		background-position: center; 
+		background-size: cover;
+		background-repeat: no repeat;
+	}
+
+	.box input[type="submit"]{
+		
+		border: none;
+		outline: none;
+		height:40px;
+		background: silver;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+	}
+
+	 
+	 .box{
+		
+		width:290px;
+		height:650px;
+		background: rgba(0,0,0,0.5);
+		color:#fff;
+		top:50%;
+		left:89.4%;
+		position:absolute;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		padding:30px 30px; 
+		
+	}
+
+	.box input[type="text"],input[type="email"], input[type="password"], input[type="number"],input[type="radio"]{
+		
+		border: none;
+		border-bottom: 1px solid #fff;
+		background: transparent;
+		outline: none;
+		height:20px;
+		color: white;
+		font-size: 16px;
+	}	
+
+}
