@@ -1,86 +1,92 @@
+*{
+	font-family: cursive;
+}
 
-*{font-family: cursive;}
+body{
+	background-image: url(''); 
+	background-color: orange;
+	margin:0; 
+	padding:0;
+	height: 100%; 
+	background-position: center; 
+	background-size: cover;
+}
 
-	body{
-		background-image: url(''); 
-		margin:0; 
-		padding:0;
-		height: 100%; 
-		background-position: center; 
-		background-size: cover;
-	}
+form{
+	action:action_page.php;
+	color: orange;  
+}
 
-	form{action:action_page.php;  
-	}
+.box{
+	width:320px;
+	height:420px;
+	background: rgba(0,0,0,0.8);
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:40px 30px; 
+}
 
-	.box{
-		width:320px;
-		height:420px;
-		background: rgba(0,0,0,0.8);
-		color:#fff;
-		top:50%;
-		left:50%;
-		position:absolute;
-		transform: translate(-50%,-50%);
-		box-sizing: border-box;
-		padding:40px 30px; 
-	}
+.box input{
+	
+	width:100%;
+	margin-bottom:20px;
+}
 
-	.box input{
+.box input[type="text"], input[type="password"]{
 		
-		width:100%;
-		margin-bottom:20px;
-	}
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:20px;
+	color: white;
+	font-size: 16px;
+}
 
-	.box input[type="text"], input[type="password"]{
+.box input[type="submit"]{
 		
-		border: none;
-		border-bottom: 1px solid #fff;
-		background: transparent;
-		outline: none;
-		height:20px;
-		color: white;
-		font-size: 16px;
-	}
+	border: none;
+	outline: none;
+	height:40px;
+	background: rgba(0,0,0,0.2);
+	color: orange;
+	font-size: 18px;
+	border-radius: 20px;
+}
 
-	.box input[type="submit"]{
+.box input[type="submit"]:hover{
 		
-		border: none;
-		outline: none;
-		height:40px;
-		background: silver;
-		color: #fff;
-		font-size: 18px;
-		border-radius: 20px;
-	}
+	cursor: pointer;
+	background: rgba(0,0,0,0.1);
+	color: silver;
+}
 
-	.box input[type="submit"]:hover{
+h1{
 		
-		cursor: pointer;
-		background: white;
-		color: #000;
-	}
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: orange;
+		
+}
 
-	h1{
-		
-		margin: 0;
-		padding: 0 0 20px;
-		text-align: center;
-		font-size: 22px;
-		
-	}
-
-	a{
-		color: silver;
-		align: center;
-		margin: 0;
-		padding: 0 0 20px;
-	}
+a{
+	color: orange;
+	text-align: center;
+	margin: 5;
+}
 
 	
 @media (min-width: 320px) and (max-width: 480px) {
 
-	*{font-family: cursive;}
+	*{
+		font-family: cursive;
+	}
 
 	body{
 		background-image: url(''); 
@@ -91,7 +97,9 @@
 		background-size: cover;
 	}
 
-	form{action:action_page.php;  
+	form{
+		action:action_page.php;
+		color: orange;  
 	}
 
 	.box{
@@ -114,7 +122,7 @@
 	}
 
 	.box input[type="text"], input[type="password"]{
-		
+			
 		border: none;
 		border-bottom: 1px solid #fff;
 		background: transparent;
@@ -125,38 +133,37 @@
 	}
 
 	.box input[type="submit"]{
-		
+			
 		border: none;
 		outline: none;
 		height:40px;
-		background: silver;
-		color: #fff;
+		background: rgba(0,0,0,0.2);
+		color: orange;
 		font-size: 18px;
 		border-radius: 20px;
 	}
 
 	.box input[type="submit"]:hover{
-		
+			
 		cursor: pointer;
-		background: white;
-		color: #000;
+		background: rgba(0,0,0,0.1);
+		color: silver;
 	}
 
 	h1{
-		
+			
 		margin: 0;
 		padding: 0 0 20px;
 		text-align: center;
 		font-size: 22px;
-		
+		color: orange;
+			
 	}
 
 	a{
-		color: silver;
+		color: orange;
 		align: center;
 		margin: 0;
 		padding: 0 0 20px;
 	}
-
-	
 }

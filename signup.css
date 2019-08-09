@@ -7,34 +7,37 @@
 .table{
 	display: table;
 }
+
 #line{
 	display: table-row;
-
 }
 
-#id{
+#cell{
 	display: table-cell;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 html{height:100%; 
 	margin:0;
 }
 
-form{action:action_page.php;  
+form{action:action_page.php; 
+	color: orange; 
 }
 
 .box input[type="submit"]:hover{
 	
 	cursor: pointer;
-	background: white;
-	color: #000;
+	background: rgba(0,0,0,0.1);
+	color: silver;
 }
 
 .box input{
 	
 	width:100%;
-	margin-bottom:0%;
-	height: 199%;
+	margin-bottom:-5%;
+	height: 190%;
 }
 
 h1{
@@ -43,16 +46,17 @@ h1{
 	padding: 0 0 20px;
 	text-align: center;
 	font-size: 22px;
-	
+	color: orange;
 }
  
- body{background-image: url(''); 
-	margin:0; 
+ body{background-image: url('');
+ 	background-color: orange; 
+	margin:0;
 	padding:0;
 	height: 100%; 
 	background-position: center; 
 	background-size: cover;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
 }
 
 .box input[type="submit"]{
@@ -60,25 +64,25 @@ h1{
 	border: none;
 	outline: none;
 	height:40px;
-	background: silver;
-	color: #fff;
+	background: rgba(0,0,0,0.2);
+	color: orange;
 	font-size: 18px;
 	border-radius: 20px;
 }
 
  
- .box{
+.box{
 	
-	width:290px;
-	height:650px;
-	background: rgba(0,0,0,0.5);
+	width:645px;
+	height:620px;
+	background: rgba(0,0,0,0.8);
 	color:#fff;
 	top:50%;
-	left:89.4%;
+	left:50%;
 	position:absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
-	padding:30px 30px; 
+	padding:37px 10px; 
 	
 }
 
@@ -93,6 +97,11 @@ h1{
 	font-size: 16px;
 }
 
+.box input[type="radio"]{
+
+	height: 15px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
 	*{
@@ -101,24 +110,40 @@ h1{
 		font-size: 16px
 	} 
 
+	.table{
+		display: table;
+	}
+
+	#line{
+		display: table-row;
+	}
+
+	#cell{
+		display: table-cell;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
 	html{height:100%; 
 		margin:0;
 	}
 
-	form{action:action_page.php;  
+	form{action:action_page.php; 
+		color: orange; 
 	}
 
 	.box input[type="submit"]:hover{
 		
 		cursor: pointer;
-		background: white;
-		color: #000;
+		background: rgba(0,0,0,0.1);
+		color: silver;
 	}
 
 	.box input{
 		
 		width:100%;
-		margin-bottom:5.9px;
+		margin-bottom:-5%;
+		height: 190%;
 	}
 
 	h1{
@@ -127,16 +152,16 @@ h1{
 		padding: 0 0 20px;
 		text-align: center;
 		font-size: 22px;
-		
+		color: orange;
 	}
 	 
 	 body{background-image: url(''); 
-		margin:0; 
+		margin:0;
 		padding:0;
 		height: 100%; 
 		background-position: center; 
 		background-size: cover;
-		background-repeat: no repeat;
+		background-repeat: no-repeat;
 	}
 
 	.box input[type="submit"]{
@@ -144,29 +169,29 @@ h1{
 		border: none;
 		outline: none;
 		height:40px;
-		background: silver;
-		color: #fff;
+		background: rgba(0,0,0,0.2);
+		color: orange;
 		font-size: 18px;
 		border-radius: 20px;
 	}
 
 	 
-	 .box{
+	.box{
 		
-		width:290px;
-		height:650px;
-		background: rgba(0,0,0,0.5);
+		width:645px;
+		height:620px;
+		background: rgba(0,0,0,0.8);
 		color:#fff;
 		top:50%;
-		left:89.4%;
+		left:50%;
 		position:absolute;
 		transform: translate(-50%,-50%);
 		box-sizing: border-box;
-		padding:30px 30px; 
+		padding:37px 10px; 
 		
 	}
 
-	.box input[type="text"],input[type="email"], input[type="password"], input[type="number"],input[type="radio"]{
+	.box input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="radio"]{
 		
 		border: none;
 		border-bottom: 1px solid #fff;
@@ -175,6 +200,10 @@ h1{
 		height:20px;
 		color: white;
 		font-size: 16px;
-	}	
+	}
 
+	.box input[type="radio"]{
+
+		height: 15px;
+	}
 }
